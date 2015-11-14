@@ -67,7 +67,7 @@ module.exports = {
 
 
 
-    while (i <= 100000) {
+    while (i <= 150000) {
 
       var str = '';
       str = _.sample(ABC, 8);

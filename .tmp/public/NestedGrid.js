@@ -50,10 +50,8 @@ Ext.define('NestedGrid',{
     'Ext.data.*',
     'Ext.util.*','NestedGrid.ux.RowExpanderGrid'],
 	title: 'Demo вложенная таблица.',
-  loadMask: true,
-  bbar: Ext.create('Ext.PagingToolbar', {
-    store: Ext.data.StoreManager.lookup('orderstore')
-  }),
+
+
     autoHeight:true,
     store: Ext.data.StoreManager.lookup('orderstore'),
     columns: [
